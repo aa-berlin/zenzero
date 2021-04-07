@@ -2,8 +2,8 @@
 Contributors: CrestaProject
 Tags: one-column, left-sidebar, custom-background, custom-menu, custom-colors, sticky-post, featured-images, theme-options, translation-ready, blog, news
 Requires at least: 4.5
-Tested up to: 5.6
-Stable tag: 1.7.3
+Tested up to: 5.7
+Stable tag: 1.7.4
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -36,6 +36,9 @@ Zenzero includes support for Infinite Scroll in Jetpack.
 * Image used in Theme Screenshot by PxHere https://pxhere.com/en/photo/927544 licensed under CC0
 
 == Changelog ==
+= Version 1.7.4 =
+* Improved compatibility with WordPress 5.7
+
 = Version 1.7.3 =
 * Improved compatibility with WordPress 5.6
 * Minor bug fixes
