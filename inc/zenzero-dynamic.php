@@ -675,14 +675,8 @@ function zenzero_custom_css_styles() {
 	.tagcloud a:hover {
 		border: 1px solid <?php echo esc_html($special_box_color_fourth); ?>;
 	}
-	.nano > .nano-pane > .nano-slider {
-		background-color: <?php echo esc_html($special_box_color_fourth); ?>;
-	}
-	.nano > .nano-pane {
-		background: rgba(<?php echo esc_html($r).', '.esc_html($g).', '.esc_html($b); ?>, 0.15);
-	}
-	.nano > .nano-pane > .nano-slider {
-		background: rgba(<?php echo esc_html($r).', '.esc_html($g).', '.esc_html($b); ?>, 0.3);
+	#secondary.widget-area .nano-content {
+		scrollbar-color: <?php echo esc_html($special_box_color_fourth); ?> rgba(0,0,0,.08);
 	}
 	@media screen and (max-width: 1025px) {
 		.main-navigation ul li .indicator {
