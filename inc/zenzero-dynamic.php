@@ -340,6 +340,23 @@ function zenzero_color_primary_register( $wp_customize ) {
     ) );
 	
 	/*
+	Custom Mobile Menu text
+	=====================================================
+	*/
+	$wp_customize->add_setting('zenzero_theme_options_mobilemenu_text', array(
+		'sanitize_callback' => 'zenzero_sanitize_text',
+		'default'    => __( 'Main Menu', 'zenzero' ),
+		'type'       => 'theme_mod',
+		'capability' => 'edit_theme_options',
+	) );
+	$wp_customize->add_control('zenzero_theme_options_mobilemenu_text', array(
+		'label'      => __( 'Mobile menu text', 'zenzero' ),
+		'section'    => 'cresta_zenzero_options',
+		'settings'   => 'zenzero_theme_options_mobilemenu_text',
+		'type'       => 'text',
+	) );
+	
+	/*
 	Custom Copyright text
 	=====================================================
 	*/

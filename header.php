@@ -47,7 +47,8 @@ if ( function_exists( 'wp_body_open' ) ) {
 			<?php endif; ?>
 
 			<nav id="site-navigation" class="main-navigation smallPart">
-				<button class="menu-toggle" aria-label="<?php esc_attr_e( 'Main Menu', 'zenzero' ); ?>"><?php esc_html_e( 'Main Menu', 'zenzero' ); ?><i class="fa fa-align-justify"></i></button>
+				<?php $mobileMenuText = get_theme_mod('zenzero_theme_options_mobilemenu_text', __( 'Main Menu', 'zenzero' )); ?>
+				<button class="menu-toggle" aria-label="<?php echo esc_attr($mobileMenuText); ?>"><?php echo esc_html($mobileMenuText); ?><i class="fa fa-align-justify"></i></button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #site-navigation -->
 		</header><!-- #masthead -->

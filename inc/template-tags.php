@@ -78,10 +78,9 @@ function zenzero_posted_on() {
 		esc_html( get_the_modified_date() )
 	);
 	
-	$posted_on = '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>';
 	$byline = '<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>';
 
-	echo '<span class="posted-on"><i class="fa fa-clock-o spaceLeftRight" aria-hidden="true"></i>' . $posted_on . '</span><span class="byline"><i class="fa fa-user spaceLeftRight" aria-hidden="true"></i>' . $byline . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	echo '<span class="posted-on"><i class="fa fa-clock-o spaceLeftRight" aria-hidden="true"></i>' . $time_string . '</span><span class="byline"><i class="fa fa-user spaceLeftRight" aria-hidden="true"></i>' . $byline . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	
 	if ( 'post' == get_post_type() ) {
 		$categories_list = get_the_category_list( ' / ' );
