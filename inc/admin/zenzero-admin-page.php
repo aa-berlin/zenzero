@@ -233,8 +233,6 @@ class Zenzero_Admin {
 	 * Output the changelog screen.
 	 */
 	public function changelog_screen() {
-		global $wp_filesystem;
-
 		?>
 		<div class="wrap about-wrap">
 
@@ -247,8 +245,7 @@ class Zenzero_Admin {
 
 				// Check if the changelog file exists and is readable.
 				if ( $changelog_file && is_readable( $changelog_file ) ) {
-					WP_Filesystem();
-					$changelog = $wp_filesystem->get_contents( $changelog_file );
+					$changelog = file_get_contents( $changelog_file );
 					$changelog_list = $this->parse_changelog( $changelog );
 
 					echo wp_kses_post( $changelog_list );

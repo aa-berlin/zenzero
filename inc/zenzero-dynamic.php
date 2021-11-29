@@ -654,7 +654,7 @@ function zenzero_custom_css_styles() {
 	.sticky .entry-header:before {
 		color: <?php echo esc_html($special_color_third); ?>;
 	}
-	.tagcloud a {	
+	.widget_tag_cloud a {	
 		color: <?php echo esc_html($special_color_third); ?> !important;
 	}
 	button:hover,
@@ -682,14 +682,14 @@ function zenzero_custom_css_styles() {
 	#toTop {
 		color: <?php echo esc_html($special_box_color_fourth); ?>;
 	}
-	.tagcloud a:hover {
+	.widget_tag_cloud a:hover {
 		color: <?php echo esc_html($special_box_color_fourth); ?> !important;
 	}
-	.tagcloud a {
+	.widget_tag_cloud a {
 		background: <?php echo esc_html($special_box_color_fourth); ?>;
 	}
 	#wp-calendar tbody td#today,
-	.tagcloud a:hover {
+	.widget_tag_cloud a:hover {
 		border: 1px solid <?php echo esc_html($special_box_color_fourth); ?>;
 	}
 	#secondary.widget-area .nano-content {
