@@ -338,6 +338,24 @@ function zenzero_color_primary_register( $wp_customize ) {
         'settings'   => 'zenzero_theme_options_smoothscroll',
         'type'       => 'checkbox',
     ) );
+
+    /*
+	Host Google Fonts locally
+	=====================================================
+	*/
+	$wp_customize->add_setting('zenzero_theme_options_googlefontslocal', array(
+        'default'    => '',
+        'type'       => 'theme_mod',
+        'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'zenzero_sanitize_checkbox'
+    ) );
+	
+	$wp_customize->add_control('zenzero_theme_options_googlefontslocal', array(
+        'label'      => __( 'Host Google Fonts locally', 'zenzero' ),
+        'section'    => 'cresta_zenzero_options',
+        'settings'   => 'zenzero_theme_options_googlefontslocal',
+        'type'       => 'checkbox',
+    ) );
 	
 	/*
 	Custom Mobile Menu text

@@ -132,13 +132,20 @@ add_action( 'widgets_init', 'zenzero_widgets_init' );
  * Enqueue scripts and styles.
  */
 function zenzero_scripts() {
+	$googleFontsLocal = get_theme_mod('zenzero_theme_options_googlefontslocal', '');
 	wp_enqueue_style( 'zenzero-style', get_stylesheet_uri(), array(), wp_get_theme()->get('Version') );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() .'/css/font-awesome.min.css', array(), '4.7.0');
 	$query_args = array(
-		'family' => 'Open+Sans:300,400,700',
+		'family' => 'Open+Sans:wght@300;400;700',
 		'display' => 'swap'
 	);
-	wp_enqueue_style( 'zenzero-googlefonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
+
+	if ($googleFontsLocal == 1) {
+		require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
+		wp_enqueue_style( 'zenzero-googlefonts', wptt_get_webfont_url(add_query_arg( $query_args, 'https://fonts.googleapis.com/css2' ) ), array(), null );
+	} else {
+		wp_enqueue_style( 'zenzero-googlefonts', add_query_arg( $query_args, "//fonts.googleapis.com/css2" ), array(), null );
+	}
 
 	wp_enqueue_script( 'zenzero-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'zenzero-custom', get_template_directory_uri() . '/js/jquery.zenzero.min.js', array('jquery'), wp_get_theme()->get('Version'), true );

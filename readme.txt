@@ -2,8 +2,8 @@
 Contributors: CrestaProject
 Tags: one-column, left-sidebar, custom-background, custom-menu, custom-colors, sticky-post, featured-images, theme-options, translation-ready, blog, news
 Requires at least: 4.5
-Tested up to: 5.8
-Stable tag: 1.7.8
+Tested up to: 6.0
+Stable tag: 1.8.0
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -34,8 +34,15 @@ Zenzero includes support for Infinite Scroll in Jetpack.
 * nanoScrollerJS (https://github.com/jamesflorentino/nanoScrollerJS) licensed under MIT
 * Smooth Scroll script (https://gist.github.com/galambalazs/6477177/) licensed under MIT
 * Image used in Theme Screenshot by PxHere https://pxhere.com/en/photo/927544 licensed under CC0
+* Webfonts Loader https://github.com/WPTT/webfont-loader licensed under MIT
 
 == Changelog ==
+= Version 1.8.0 =
+* Added an option to host Google Fonts locally
+
+= Version 1.7.9 =
+* Added compatibility with WordPress 5.9
+
 = Version 1.7.8 =
 * Minor bug fixes
 

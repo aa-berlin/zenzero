@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Zenzero\n"
-"POT-Creation-Date: 2021-11-11 11:04+0100\n"
-"PO-Revision-Date: 2021-11-11 11:04+0100\n"
+"POT-Creation-Date: 2022-08-23 19:01+0100\n"
+"PO-Revision-Date: 2022-08-23 19:01+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -203,7 +203,7 @@ msgstr ""
 msgid "Sidebar"
 msgstr ""
 
-#: header.php:50 inc/zenzero-dynamic.php:348
+#: header.php:50 inc/zenzero-dynamic.php:366
 msgid "Main Menu"
 msgstr ""
 
@@ -359,7 +359,7 @@ msgstr ""
 msgid "Powerful theme options"
 msgstr ""
 
-#: inc/admin/zenzero-admin-page.php:334 inc/zenzero-dynamic.php:399
+#: inc/admin/zenzero-admin-page.php:334 inc/zenzero-dynamic.php:417
 msgid "Loading Page"
 msgstr ""
 
@@ -367,27 +367,27 @@ msgstr ""
 msgid "Font switcher"
 msgstr ""
 
-#: inc/admin/zenzero-admin-page.php:344 inc/zenzero-dynamic.php:403
+#: inc/admin/zenzero-admin-page.php:344 inc/zenzero-dynamic.php:421
 msgid "Breadcrumb"
 msgstr ""
 
-#: inc/admin/zenzero-admin-page.php:349 inc/zenzero-dynamic.php:402
+#: inc/admin/zenzero-admin-page.php:349 inc/zenzero-dynamic.php:420
 msgid "Post views counter"
 msgstr ""
 
-#: inc/admin/zenzero-admin-page.php:354 inc/zenzero-dynamic.php:405
+#: inc/admin/zenzero-admin-page.php:354 inc/zenzero-dynamic.php:423
 msgid "7 Shortcodes"
 msgstr ""
 
-#: inc/admin/zenzero-admin-page.php:359 inc/zenzero-dynamic.php:406
+#: inc/admin/zenzero-admin-page.php:359 inc/zenzero-dynamic.php:424
 msgid "5 Exclusive Widgets"
 msgstr ""
 
-#: inc/admin/zenzero-admin-page.php:364 inc/zenzero-dynamic.php:407
+#: inc/admin/zenzero-admin-page.php:364 inc/zenzero-dynamic.php:425
 msgid "Related Posts Box"
 msgstr ""
 
-#: inc/admin/zenzero-admin-page.php:369 inc/zenzero-dynamic.php:408
+#: inc/admin/zenzero-admin-page.php:369 inc/zenzero-dynamic.php:426
 msgid "Information About Author Box"
 msgstr ""
 
@@ -611,55 +611,59 @@ msgstr ""
 msgid "Enable Smooth Scroll"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:353
-msgid "Mobile menu text"
-msgstr ""
-
-#: inc/zenzero-dynamic.php:370
-msgid "Copyright Text"
+#: inc/zenzero-dynamic.php:354
+msgid "Host Google Fonts locally"
 msgstr ""
 
 #: inc/zenzero-dynamic.php:371
+msgid "Mobile menu text"
+msgstr ""
+
+#: inc/zenzero-dynamic.php:388
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/zenzero-dynamic.php:389
 msgid "Get the PRO version to remove CrestaProject credits"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:385
+#: inc/zenzero-dynamic.php:403
 msgid "Get Zenzero PRO WP Theme for only"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:390
+#: inc/zenzero-dynamic.php:408
 msgid "Watch the demo"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:393
+#: inc/zenzero-dynamic.php:411
 msgid "Get Zenzero PRO Theme"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:397
+#: inc/zenzero-dynamic.php:415
 msgid "Advanced Theme Options"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:398
+#: inc/zenzero-dynamic.php:416
 msgid "Logo Upload"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:400
+#: inc/zenzero-dynamic.php:418
 msgid "Font Switcher"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:401
+#: inc/zenzero-dynamic.php:419
 msgid "Unlimited Colors and Skin"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:404
+#: inc/zenzero-dynamic.php:422
 msgid "Post format"
 msgstr ""
 
-#: inc/zenzero-dynamic.php:409
+#: inc/zenzero-dynamic.php:427
 msgid "And much more..."
 msgstr ""
 
-#: inc/zenzero-dynamic.php:415
+#: inc/zenzero-dynamic.php:433
 msgid "More features? Upgrade to PRO"
 msgstr ""
 
